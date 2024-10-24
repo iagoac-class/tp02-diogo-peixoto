@@ -84,7 +84,7 @@ double arvore_binaria(int instancia_num, Node **root) {
     char filename[50]; // para armazenar o nome do arquivo
 
     // Formatar o nome do arquivo
-    sprintf(filename, "instancias/%d.txt", instancia_num);
+    sprintf(filename, "instancias/%d", instancia_num);
 
     // Abrir o arquivo para leitura
     FILE *file = fopen(filename, "r");
@@ -312,7 +312,7 @@ double arvore_balanceada(int instancia_num, Node_avl **root_avl) {
     char filename[50]; // para armazenar o nome do arquivo
 
     // Formatar o nome do arquivo
-    sprintf(filename, "instancias/%d.txt", instancia_num);
+    sprintf(filename, "instancias/%d", instancia_num);
 
     // Abrir o arquivo para leitura
     FILE *file = fopen(filename, "r");
